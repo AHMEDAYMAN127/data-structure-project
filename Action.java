@@ -1,0 +1,12 @@
+package javaapplication7;
+public class Action {
+    String type;
+    int studentid;
+    int courseid;
+    public Action(String type,int studentid,int courseid){
+    this.type=type;
+    this.studentid=studentid;
+    this.courseid=courseid;
+    }
+    
+}
